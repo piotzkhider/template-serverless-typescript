@@ -1,7 +1,4 @@
 import { APIGatewayProxyHandler } from 'aws-lambda';
-import * as dotenv from 'dotenv';
-
-dotenv.config();
 
 export const hello: APIGatewayProxyHandler = async event => {
   return {

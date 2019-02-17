@@ -10,6 +10,8 @@ provider:
   name: aws
   region: <your_region>
   runtime: nodejs8.10
+  environment:
+    KEY: value
 
 functions:
   hello:

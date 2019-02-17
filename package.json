@@ -8,12 +8,9 @@
     "lint": "tslint --fix handler.ts 'src/**/*.ts{,x}'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "dotenv": "^6.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/aws-lambda": "^8.10.19",
-    "@types/dotenv": "^6.1.0",
     "@types/node": "^11.9.4",
     "prettier": "^1.16.4",
     "serverless-offline": "^4.4.2",
